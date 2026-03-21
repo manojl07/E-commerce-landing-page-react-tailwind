@@ -63,43 +63,43 @@
 
 /* individual card colors */
 .review-slide:nth-child(1n) .review-card {
-  background-color: rgb(206, 17, 17);
+  background-color: #88857D
 }
 
 .review-slide:nth-child(2n) .review-card {
-  background-color: rgb(0, 140, 255);
+  background-color: #595421
 }
 
 .review-slide:nth-child(3n) .review-card {
-  background-color: rgb(10, 184, 111);
+  background-color: #867E32
 }
 
 .review-slide:nth-child(4n) .review-card {
-  background-color: rgb(211, 122, 7);
+  background-color: #D69A90
 }
 
 .review-slide:nth-child(5n) .review-card {
-  background-color: rgb(118, 163, 12);
+  background-color: #AE6A50
 }
 
 .review-slide:nth-child(6n) .review-card {
-  background-color: rgb(180, 10, 47);
+  background-color: #C08070
 }
 
 .review-slide:nth-child(7n) .review-card {
-  background-color: rgb(35, 99, 19);
+  background-color: #E78790
 }
 
 .review-slide:nth-child(8n) .review-card {
-  background-color: rgb(0, 68, 255);
+  background-color: #833830
 }
 
 .review-slide:nth-child(9n) .review-card {
-  background-color: rgb(218, 12, 218);
+  background-color: #343F50
 }
 
 .review-slide:nth-child(10n) .review-card {
-  background-color: rgb(54, 94, 77);
+  background-color: #343F50
 }
 
 @media (max-width: 640px) {
