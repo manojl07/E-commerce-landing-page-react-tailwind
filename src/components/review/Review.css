@@ -1,0 +1,119 @@
+.review-heading p {
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+.review-swiper {
+  margin-top: 1rem;
+  width: 60%;
+  height: 420px;
+}
+
+.review-slide {
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.review-card {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  /* padding: 15px; */
+}
+
+.review-badge {
+  display: inline-block;
+  width: fit-content;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.review-image-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-card img {
+  max-width: 200px;
+  aspect-ratio: 3/4;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.review-text {
+  margin-top: auto;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* individual card colors */
+.review-slide:nth-child(1n) .review-card {
+  background-color: rgb(206, 17, 17);
+}
+
+.review-slide:nth-child(2n) .review-card {
+  background-color: rgb(0, 140, 255);
+}
+
+.review-slide:nth-child(3n) .review-card {
+  background-color: rgb(10, 184, 111);
+}
+
+.review-slide:nth-child(4n) .review-card {
+  background-color: rgb(211, 122, 7);
+}
+
+.review-slide:nth-child(5n) .review-card {
+  background-color: rgb(118, 163, 12);
+}
+
+.review-slide:nth-child(6n) .review-card {
+  background-color: rgb(180, 10, 47);
+}
+
+.review-slide:nth-child(7n) .review-card {
+  background-color: rgb(35, 99, 19);
+}
+
+.review-slide:nth-child(8n) .review-card {
+  background-color: rgb(0, 68, 255);
+}
+
+.review-slide:nth-child(9n) .review-card {
+  background-color: rgb(218, 12, 218);
+}
+
+.review-slide:nth-child(10n) .review-card {
+  background-color: rgb(54, 94, 77);
+}
+
+@media (max-width: 640px) {
+  .review-swiper {
+    width: 220px;
+    height: 360px;
+  }
+
+  .review-text {
+    font-size: 1rem;
+  }
+
+  .review-card img {
+    max-width: 85%;
+    max-height: 160px;
+  }
+}
