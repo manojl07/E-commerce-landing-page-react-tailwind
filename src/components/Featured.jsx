@@ -1,4 +1,10 @@
 import React from 'react'
+import f1 from "../assets/feature-1.png";
+import f2 from "../assets/feature-2.png";
+import f3 from "../assets/feature-3.png";
+import f4 from "../assets/feature-4.png";
+import f5 from "../assets/feature-5.png";
+import f6 from "../assets/feature-6.png";
 
 const data = [
   {
@@ -7,7 +13,7 @@ const data = [
     title: "Galaxy S13 Lite Love The Price.",
     price: "From $429.00",
     button: "Buy Now",
-    image: "/src/assets/feature-1.png",
+    image: f1,
     btn: "btn-primary"
   },
   {
@@ -16,7 +22,7 @@ const data = [
     title: "Smartwatch 7 Light On Price.",
     price: "From $379.00",
     button: "Learn More",
-    image: "/src/assets/feature-2.png",
+    image: f2,
     btn: "btn-secondary"
   },
   {
@@ -25,7 +31,7 @@ const data = [
     title: "Five Bold Colors. $99 Each.",
     price: "From $229.00",
     button: "Buy Now",
-    image: "/src/assets/feature-3.png",
+    image: f3,
     btn: "btn-primary"
   },
   {
@@ -34,7 +40,7 @@ const data = [
     title: "5th Generation AirPods.",
     price: "From $499.00",
     button: "Learn More",
-    image: "/src/assets/feature-4.png",
+    image: f4,
     btn: "btn-secondary"
   },
   {
@@ -43,7 +49,7 @@ const data = [
     title: "Headset Max 3rd Generation.",
     price: "From $549.00",
     button: "Buy Now",
-    image: "/src/assets/feature-5.png",
+    image: f5,
     btn: "btn-primary"
   },
   {
@@ -52,7 +58,7 @@ const data = [
     title: "Mac Book Pro. New Arrival.",
     price: "From $2499",
     button: "Learn More",
-    image: "/src/assets/feature-6.png",
+    image: f6,
     btn: "btn-secondary"
   }
 ];
