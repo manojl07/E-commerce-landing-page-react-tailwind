@@ -21,7 +21,7 @@ const Footer = () => {
                   GET EXCLUSIVE ACCESS TO NEW PRODUCTS, DEALS & SURPRISE TREATS
                 </h3>
 
-                <div className="flex max-w-md gap-2 items-stretch">
+                <div className="flex flex-wrap max-w-md gap-2 items-stretch">
                   <input
                     type="text"
                     placeholder="Enter your email"

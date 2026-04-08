@@ -14,11 +14,11 @@ const TopCategories = () => {
   return (
     <section id='top'>
       <h2 className='uppercase'>Our Top Categories</h2>
-      <div className="grid grid-cols-3  gap-4 md:gap-4 md:grid-cols-3 lg:grid-cols-6 lg:gap-6">
+      <div className="grid grid-cols-3  gap-2 md:gap-4 md:grid-cols-3 lg:grid-cols-6 lg:gap-6">
         {categories.map((cat, index) => (
           <div key={index} className="flex flex-col items-center text-center py-2 md:py-10">
 
-            <div className="w-30 h-30 aspect-square overflow-hidden rounded-[50%] shadow-sm">
+            <div className="w-20 h-20 m:w-30 aspect-square overflow-hidden rounded-[50%] shadow-sm">
               <img
                 src={cat.img}
                 alt={cat.name}

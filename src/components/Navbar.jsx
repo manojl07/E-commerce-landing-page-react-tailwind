@@ -40,11 +40,11 @@ const Navbar = () => {
             className="ri-close-line text-2xl"
             onClick={() => setMenuOpen(false)}
           ></i>
-          <a href="#">TECH</a>
-          <a href="#">bags & wallets</a>
-          <a href="#">Work essentials</a>
-          <a href="#">collections</a>
-          <a href="#">new arrival</a>
+          <a href="#" className='text-[clamp(0.6rem,1vw,0.9rem)]'>TECH</a>
+          <a href="#" className='text-[clamp(0.6rem,1vw,0.9rem)]'>bags & wallets</a>
+          <a href="#" className='text-[clamp(0.6rem,1vw,0.9rem)]'>Work essentials</a>
+          <a href="#" className='text-[clamp(0.6rem,1vw,0.9rem)]'>collections</a>
+          <a href="#" className='text-[clamp(0.6rem,1vw,0.9rem)]'>new arrival</a>
         </div>
 
         <div className="center">
