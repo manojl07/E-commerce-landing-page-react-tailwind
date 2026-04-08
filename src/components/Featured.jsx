@@ -65,12 +65,12 @@ const data = [
 
 const Featured = () => {
   return (
-    <section className="features grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+    <section className="features grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
 
 {data.map((item) => (
-  <div key={item.id} className="feature grid grid-cols-2 items-center">
+  <div key={item.id} className="feature flex items-center justify-between gap-4 ">
 
-    <div className="content">
+    <div className="content flex-1">
       <h4 className="tip">{item.tip}</h4>
       <h2>{item.title}</h2>
       <h3>{item.price}</h3>
@@ -81,7 +81,7 @@ const Featured = () => {
 
     </div>
 
-    <div className="poster flex-wrap">
+    <div className="poster flex-[0.8] flex justify-center items-center">
       <img src={item.image} alt={item.title} />
     </div>
 
